@@ -8,10 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 body {
   background-color: #000;
-  color: #e4e4e4;
-  font-family: 'Comfortaa', cursive;
-  /*font-family: 'Baskervville', serif;*/
-  font-size:12px;
+  color: #e4e4e4; 
 }
 
 h1,
@@ -84,6 +81,9 @@ a:hover {
   background-position: center center;
 }
 
+.form-control{
+  /*background:#333d;*/
+}
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
@@ -652,7 +652,7 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #cad5e4;
+  color: #fff;
   font-weight: 900;
   font-size:2rem; 
 }
@@ -664,7 +664,7 @@ a:hover {
 }
 
 .hero .hero-subtitle {
-  font-family: 'Baskervville', serif;
+
   font-size:2rem !important;
   font-weight: 500;
   color: #768aa5 !important;
@@ -679,8 +679,9 @@ a:hover {
 }
 
 .hero-form{
-  background:rgba(250,250,250,0.8);
-  border:1px solid #fff;
+  background:#fffc;
+  box-shadow: 0px 0px 10px #333;
+  border:1px solid #666c;
 }
 
 .hero .text-slider-items {
@@ -736,8 +737,38 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# About
+# vision 
 --------------------------------------------------------------*/
+#vision{
+  margin-top: 50px 0;
+  
+}
+.penline-top{
+  right: 0;
+  top: 0;
+  transform:scaleY(-1);;
+ 
+}
+/*--------------------------------------------------------------
+# Features list
+--------------------------------------------------------------*/
+
+.features-list{
+  margin: 50px 0px;
+  padding: 10px 0;
+}
+
+.features-list li{
+  list-style-type: none;
+  margin:10px 0;
+  padding:10px 0;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.features-list li .fa{
+  font-size:36px;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
