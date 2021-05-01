@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/jquery.animatedheadline.css">
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/main.css">
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/responsive.css">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="style.css" rel="stylesheet">
 
 <body id="page-top">
@@ -26,39 +26,31 @@
   <!-- ======= Header/ Navbar ======= -->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img src="https://cmxchat.com//default_images/logo.png?v=5.72" width="100">
-</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a  href="#" class="flag" style="background: url(img/flag.png) no-repeat center center #fff;background-size:50px;"></a>  
-          </li>
-        </ul>
+      <a class="navbar-brand js-scroll" href="#page-top"><img src="https://cmxchat.com//default_images/logo.png" width="100">
+      </a>
+      <div class="navbar-header navbar-right pull-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a  href="#" class="flag" style="background: url(img/flag.png) no-repeat center center #fff;background-size:50px;"></a>  
+            </li>
+          </ul>
       </div>
     </div>
   </nav>
 
   <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background:url(img/intro-bg.jpg) no-repeat center center;">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table mt-4 pt-4">
-      <div class="table-cell">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-8 mt-4 pt-4">
-              <h1 class="intro-title mb-4">Welcome to the New and Improved Chat Experience</span></h1>
-              <!-- <h1 class="intro-title mb-4">Welcome to the New and Improved <span class="text-slider-items">Chat Experience</span><span class="text-slider"></span></h1> -->
-              <p class="intro-subtitle mb-4">A friendly laid-back community connecting creative minds from around the world.</p>
-
-              <p class="subtitle-description">The cmx vision is to achieve an effective communication tool for diverse, attractive and talented minds to share laughs, collaborate, or simply lounge and converse with others. Endeavor in the advantages of anonymity, enabling the freedom of being one’s true self in an inclusively new approach to human engagements.</p>
-              <a class="btn btn-primary rounded-pill px-4 btn-lg" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa fa-android"></i> Android apps</a>
+  <section id="hero">
+    <div id="particles-js">
+        <div class="container position-relative">
+          <div class="row position-absolute hero">
+            <div class="col-sm-12 col-md-8 ">
+              <h1 class="hero-title mt-4 pt-4 mb-4 animate__animated animate__fadeInDown animate__delay-1s">Welcome to the New and Improved Chat Experience</h1>
+              <div class="animate__animated animate__fadeInUp animate__delay-1s">
+                 <p class="hero-subtitle mb-4">A friendly laid-back community connecting creative minds from around the world.</p>
+                 <a class="btn btn-primary rounded-pill px-4 btn-lg" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa fa-android"></i> Android apps</a> 
+              </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-1s">
                 <div class="card">
                   <div class="card-body">
                         <h2 class="mb-4 font-weight-bold">Chat Login</h2>
@@ -98,12 +90,9 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
-  </div><!-- End Intro Section -->
-<!--   <svg xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1600 40" class="position-absolute width-full z-1" style="bottom: -1px;">
-        <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path>
-    </svg> -->
+</section><!-- End Intro Section -->
+
   <main id="main" style="background:url(img/pattern.png);background-attachment: fixed;background-size: 1200px;">
     
     <div class="main-overlay"></div>
@@ -171,7 +160,9 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
+  <script src="particles.min.js"></script>
   <!-- Template Main JS File -->
+  <script src="app.js"></script>
   <script src="main.js"></script>
 
 </body>
