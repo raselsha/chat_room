@@ -225,6 +225,8 @@ border-radius: 3px!important;;}
     <script src="control/login/Nirvana3/assets/js/odometer.min.js"></script>
     <script src="control/login/Nirvana3/assets/js/viewport.jquery.js"></script>
     <script src="control/login/Nirvana3/assets/js/nice-select.js"></script>
+    
     <script src="control/login/Nirvana3/assets/js/main.js"></script>
-  <script data-cfasync="false" src="js/function_login.js<?php echo $bbfv; ?>"></script>
-<script data-cfasync="false" src="js/function_active.js<?php echo $bbfv; ?>"></script>
+  
+    <script data-cfasync="false" src="js/function_login.js<?php echo $bbfv; ?>"></script>
+    <script data-cfasync="false" src="js/function_active.js<?php echo $bbfv; ?>"></script>
