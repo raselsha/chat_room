@@ -4,7 +4,7 @@
   <!-- Vendor CSS Files -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/all.min.css">
@@ -19,134 +19,85 @@
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/main.css">
   <link rel="stylesheet" href="control/login/Nirvana3/assets/css/responsive.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- <link href="style.css" rel="stylesheet"> -->
   <link href="style.css" rel="stylesheet">
 
 <body id="page-top">
-
-  <!-- ======= Header/ Navbar ======= -->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img src="https://cmxchat.com//default_images/logo.png" width="100">
-      </a>
-      <div class="navbar-header navbar-right pull-right">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a  href="#" class="flag" style="background: url(img/flag.png) no-repeat center center #fff;background-size:50px;"></a>  
+    <!-- ======= Header/ Navbar ======= -->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">
+            <img src="img/logo.svg">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#about">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#service">About</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#" class="flag" style="background: url(img/flag.png) no-repeat center center #fff;background-size:50px;"></a> 
             </li>
           </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- ======= Intro Section ======= -->
-  <section id="hero">
-    <div id="particles-js">
-        <div class="container position-relative">
-          <div class="row position-absolute hero">
-            <div class="col-sm-12 col-md-8 ">
-              <h1 class="hero-title mt-4 pt-4 mb-4 animate__animated animate__fadeInDown animate__delay-1s">Welcome to the New and Improved Chat Experience</h1>
-              <div class="animate__animated animate__fadeInUp animate__delay-1s">
-                 <p class="hero-subtitle mb-4">A friendly laid-back community connecting creative minds from around the world.</p>
-                 <a class="btn btn-outline-primary rounded-pill px-4 btn-lg" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa fa-android"></i> Android apps</a> 
-              </div>
-            </div>
-            <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-1s">
-                <div class="card hero-form">
-                  <div class="card-body">
-                        <h2 class="mb-4 font-weight-bold">Chat Login</h2>
-                        <form action="" method="post" role="form" class="php-email-form">
-                          <div class="row">
-                            <div class="col-md-12 mb-3">
-                              <div class="form-group">
-                                <input type="text" name="name" class="form-control rounded" id="name" placeholder="Username / Email"/>
-                              </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                              <div class="form-group">
-                                <input type="password" class="form-control rounded" name="password" id="password" placeholder="Password" />
-                              </div>
-                              <a class="text-muted" href="#">Forgot password</a>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <div class="row mb-4">
-                                    <div class="col-sm-6">
-                                        <a class="btn btn-primary btn-block rounded-pill px-4" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa fa-paper-plane-o"></i> Login</a>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <a class="btn btn-block btn-outline-primary rounded-pill px-4" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa fa-users"></i> Guest</a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <p>
-                                        <a class="btn btn-block btn-outline-primary rounded-pill px-4" data-toggle="modal" data-target="#exampleModal" type="button" role="button"><i class="fa  fa-user-plus"></i> Register</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-          </div>
         </div>
-    </div>
-</section><!-- End Intro Section -->
-<section id="vision">
+      </div>
+    </nav>
+
+    <!-- ======= Intro Section ======= -->
+<section id="intro" style="background-image: url(img/hero-banner.jpg)">
+    <div class="overlay-itro"></div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 mt-5 pt-6 ">
+            <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-1s">
                 <div class="card">
                     <div class="card-body">
-                        <h1 class="title">CMX Vision</h1>
-                        <p class="text-muted description">The cmx vision is to achieve an effective communication tool for diverse, attractive and talented minds to share laughs, collaborate, or simply lounge and converse with others. Endeavor in the advantages of anonymity, enabling the freedom of being one’s true self in an inclusively new approach to human engagements.</p>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
+                        <h2 class="sign-in-title text-center">Sign In</h2>
+                        <div class="form-group">
+                          <input id="user_username" class="form-control" type="text" maxlength="50" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                          <input id="user_password" class="form-control" maxlength="30" type="password" placeholder="Password">
+                        </div>
+                        <div class="form-group mt-5">
+                            <button onclick="sendLogin();" type="button" class="btn btn-primery btn-block login-button  py-3">
+                                <i class="fas fa-sign-in-alt" aria-hidden="true"></i> Login
+                            </button>
+                        </div>
+                        <div class="social-icon text-center">
+                           <a href="#"><i class="fab fa-dribbble"></i></a> 
+                           <a href="#"><i class="fab fa-twitter-square"></i></a>
+                           <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                        <div class="extra-login">
+                            <p>
+                                <a href="" onclick="getRecovery();">
+                                    Forgot password?
+                                </a>
+                            </p>
+                            <p>
+                                Don't have an account? <a href="" onclick="getRegistration();">sign up</a>
+                            </p>
+                            <p>
+                                <a href="" onclick="getGuestLogin();">Guest Login?</a>
+                            </p>
+                        </div>
+                    </div> <!-- end card body -->
+                </div> <!-- end card -->
+            </div> <!-- end col -->
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section><!-- End Intro Section -->
 
-<section id="features" class="position-relative">
-    <img src="img/pen_line.png" class="position-absolute">
-    <div class="container-fluid mt-5 pt-6">
-        <div class="row">
-            <div class="col-sm-12 mt-5 pt-6">
-                <h1 class="intro-title text-center font-weight-bold mb-4 text-white mt-5 pt-6">Features</h1>
-                <div class="gredient-line"></div>
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-9 offset-md-2" > 
-                <ul class="features-list">
-                  <li><i class="fa fa-comments-o"></i> 24/7 live chat room</li>
-                  <li><i class="fa fa-user-secret"></i> Exclusive access to unique rooms</li>
-                  <li><i class="fa fa-puzzle-piece"></i> Full anonymity</li>
-                  <li><i class="fa fa-group"></i> Group chats and private messaging</li>
-                  <li><i class="fa fa-podcast"></i> Voice messaging</li>
-                  <li><i class="fa fa-file-movie-o"></i> Image and Video uploads</li>
-                  <li><i class="fa fa-share-alt"></i> Story and other sharing features</li>
-                  <li><i class="fa fa-video-camera"></i> HD media engagement, integration with audio and video providers</li>
-                  <li><i class="fa fa-music"></i> Profile music option of your choosing.</li>
-                  <li><i class="fa fa-users"></i> Friends list and friends wall</li>
-                  <li><i class="fa fa-adjust"></i> Lite/Dark Theme selections</li>
-                  <li><i class="fa fa-adn"></i> A huge set of fonts, emojis and gifs to spice up the chat</li>
-                  <li><i class="fa fa-bullseye "></i> Internal coin system for upgrades and transfers.</li>
-                  <li><i class="fa fa-hard-of-hearing"></i> Discord Integration</li>
-                  <li><i class="fa fa-podcast"></i> Cmx radio station - song requests</li>
-                  <li><i class="fa fa-random"></i> Engage in inside information</li>
-                </ul>
-            </div>
-            <div class="col-sm-12 mt-4 pt-4 mb-4 pb-4 description" >
-              
-                Welcome to the latest in innovative chat experiences. When we all experienced the Covid-19 pandemic, a vast majority of the world from all walks of life had turned to social platforms in search of entertainment and human engagement. Just as nature falls into place, great minds amongst the billions united to collaborate towards the creation of cmx. A platform by chatters, for chatters has become an effective communication tool for diverse, attractive and talented minds to share laughs, collaborate, or simply lounge and converse with others. Our core values include full anonymity, giving anyone the platform to talk and let thoughts run free- without censorship from our end. A basic code of conduct is accommodated to ensure a safe environment. As the community grows, the scope of conversations are endless and the vast array of personalities have become a fun source of entertainment that may also vary by time zone. The users within the organization continue to team on various projects while finding creative and intelligent people along the way. New members continue to join, contributing song recommendations, jokes, and even advice. Bonds and friendships continue to grow strong. Minglers mingle and the coffee breakers chat, the influencers influence and the relationships formed are just too many to count. Our chat software includes many features and options such as listening to music while chatting and heaps more through our VIP feature access. We support all mobile, tablet and desktop devices with no downloads. The site commits itself to the vision’s holistic development and will continue to unify engaging and innovative souls from across the globe toward a promising and fulfilling experience.
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End #features -->
 
   <!-- ======= Footer ======= -->
   <footer>
