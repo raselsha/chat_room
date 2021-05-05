@@ -481,7 +481,7 @@ font-family: muli;
   color: #fff;
   margin: 0;
   padding:100px 0;
-  background-color:#ddd;
+  background-color:#fcd436;
   background-repeat: no-repeat;
   background-position:center bottom;
   background-size: cover;
@@ -505,7 +505,36 @@ bottom:0;
   background-repeat: no-repeat;
 
 }
+/*************************about*************************/
+#about{
+  padding-top:100px;
+  background-color: #e1e1e1; 
+  background-repeat: no-repeat; 
+}
 
+.girl-image{
+  top: 0;
+  right: 0;
+}
+@media (min-width:768px){
+  .about-content{
+    margin-top:300px;
+    margin-left: -150px;
+  }
+}
+
+/*********************about-us****************/
+#about-us{
+  padding:100px;
+  background-color: #cad5e4; 
+  background-repeat: no-repeat; 
+  background-position: left top; 
+}
+@media (max-width:768px){
+  #about-us{
+    padding:0px;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
