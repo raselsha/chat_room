@@ -2,11 +2,89 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="937.5px" height="937.5px" viewBox="0 0 937.5 937.5" enable-background="new 0 0 937.5 937.5" xml:space="preserve">
-<circle fill="#768AA5" cx="468.75" cy="468.75" r="430.555"/>
+	 width="552.882px" height="550.266px" viewBox="3.945 -0.009 552.882 550.266"
+	 enable-background="new 3.945 -0.009 552.882 550.266" xml:space="preserve">
+<circle fill="#4FCCFC" cx="283.992" cy="269.07" r="133.615"/>
+<g>
+	<g>
+		<circle fill="#406CCF" cx="101.672" cy="433.414" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="182.574" cy="492.193" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="280.389" cy="512.983" r="28.387"/>
+	</g>
+	<g>
+		<path fill="#406CCF" d="M384.106,519.959c-15.334,3.261-30.409-6.53-33.67-21.866c-3.257-15.335,6.531-30.409,21.867-33.668
+			c15.333-3.26,30.408,6.528,33.669,21.865C409.23,501.624,399.441,516.698,384.106,519.959z"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="459.106" cy="433.413" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="509.105" cy="346.81" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="519.558" cy="247.358" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="488.656" cy="152.252" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="421.743" cy="77.938" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="330.388" cy="37.264" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="230.388" cy="37.264" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="139.033" cy="77.938" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="72.12" cy="152.253" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="41.219" cy="247.359" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="51.672" cy="346.812" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="101.672" cy="433.414" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="182.574" cy="492.193" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="280.389" cy="512.983" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="378.204" cy="492.192" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="459.105" cy="433.413" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="509.105" cy="346.811" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="519.558" cy="247.358" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="488.656" cy="152.253" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="421.743" cy="77.938" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="330.389" cy="37.265" r="28.387"/>
+	</g>
+	<g>
+		<circle fill="#406CCF" cx="230.389" cy="37.265" r="28.387"/>
+	</g>
+</g>
 <title></title>
-<path fill="#FFFFFF" d="M395.938,656.25c-8.66-0.027-16.923-3.649-22.813-10L227.188,490c-10.869-13.405-8.813-33.085,4.592-43.955
-	c12.122-9.83,29.639-9.209,41.033,1.455l123.125,131.563l268.75-287.813c10.87-13.405,30.551-15.461,43.955-4.591
-	c13.405,10.87,15.461,30.55,4.592,43.955c-0.901,1.11-1.877,2.158-2.922,3.136L418.75,646.25
-	C412.86,652.601,404.599,656.223,395.938,656.25z"/>
 </svg>
