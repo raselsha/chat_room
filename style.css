@@ -599,6 +599,7 @@ input[type='password']{
   font-size:20px;
   line-height: 36px;
   font-weight:400;
+  padding: 0 150px;
 }
 /**************************feature***************************/
 #feature{
@@ -759,6 +760,11 @@ footer .copyright .nav a{
   #promotion-item .card{
     margin:20px 0;
   }
+  /***********about************/
+  #about p{
+    padding:0;
+  }
+
   /***********feature************/
   
   #feature hr{
