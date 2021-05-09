@@ -518,6 +518,7 @@ input[type='password']{
 }
 .hero-image{
   margin-right:-70px;
+  width: 100%;
 }
 
 /*************************about*************************/
@@ -699,4 +700,66 @@ footer .copyright .nav a{
   color: #fff;
   font-size: 13px;
   font-weight: 500;
+}
+
+/***********responsive design*************/
+@media (max-width:575px){
+  #intro{
+    background-size: cover;
+    padding-top: 160px;
+    background-position: left top;
+  }
+  #intro .login{
+    border-radius:20px;
+    background: #19326a;
+    width:100%;
+  }
+
+  .login h1{
+    font-size: 30px;
+  }
+
+  .login hr{
+    margin-right: 65px;
+  }
+  .hero{
+    background-position: 43px 161px;
+    background-size:400px; 
+  }
+  .hero-image {
+    margin-right:0px;
+    padding:0;
+  }
+  /*promotion**********************/
+  #promotion {
+      padding: 25px 0;
+  }
+  .promotion-title {
+    border-radius: 10px;
+    padding: 18px 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .promotion-content p {
+    margin-bottom: 20px;
+  }
+  /****************promotion-item*****************/
+  #promotion-item{
+    margin: 40px 0;
+  }
+  #promotion-item .card{
+    margin:20px 0;
+  }
+  /**********heighlight***********/
+  #heighlight h1 {
+      font-size: 30px;
+  }
+  #heighlight a {
+    margin:16px 0;
+  }
+  .call-now {
+    right: 10px;
+    top: -84px;
+  }
 }
