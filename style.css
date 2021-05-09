@@ -1,32 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Raleway:wght@300;400;500;600;700;800;&display=swap');
-/*     
-font-family: 'Manrope', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 
 body {
   color: #29333d; 
-  font-family: 'Raleway', sans-serif
-  font-size:1.2rem;
+  font-size:18px;
+  font-family:'Raleway', sans-serif;
+  font-weight:500;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6{
   font-family: 'Raleway', sans-serif;
   color:#29333d;
 }
-
 h1{font-size:35px;font-weight:800;}
-h2{font-size:24px;font-weight:700;}
-h3{font-size:18.72px;;font-weight:600;}
-h4{font-size:16px;font-weight:500;}
-h5{font-size:13.28px;font-weight:400;}
-h6{font-size:10.72px;font-weight:300;}
+h2{font-size:24px;font-weight:700;} 
+h3{font-size:18.72px;;font-weight:700;}
+h4{font-size:16px;font-weight:700;}
+h5{font-size:13.28px;font-weight:700;}
+h6{font-size:10.72px;font-weight:700;}
 
+p{
+  font-family:'Raleway', sans-serif;
+  font-weight:400;
+}
 
 a {
   color: #1e1e1e;
@@ -47,18 +43,7 @@ a:hover {
 .btn:focus{
   box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
 }
-.btn-login{
-  background: #000;
-  color:rgba(255,255,255,1);
-  font-size: 19px;
-  font-weight: 600;
-  font-family: 'Manrope', sans-serif; 
-  width: 60%;
-  padding:13px;
-}
-.btn-login:hover{
-  color:rgba(200,200,200,0.9);
-}
+
 
 .bg-primery{
 background:#19326a !important;;
@@ -439,6 +424,7 @@ color: #4fccfc !important;;
 #intro .login{
   border-radius:20px;
   background: #19326a;
+  width: 450px;
 }
 .login hr{
   border: 0;
@@ -452,12 +438,11 @@ color: #4fccfc !important;;
 }
 .login h1{
   margin-bottom: 0;
-
 }
 /*login in form*/
 label{
   color:#cdd0d9;
-  font-size:18px;
+  font-size:16px;
   margin-bottom: 0;
   padding-left:20px;
 }
@@ -470,8 +455,6 @@ border:1px solid #2e4474;
 outline: none;
 box-shadow: none;
 margin:8px 0;
-font-size:100%;
-font-weight:400;
 height:50px; 
 border-radius:50px;
 color:#fffa; 
@@ -489,7 +472,22 @@ color:#fffa;
     background:#162d5f;
     border:1px solid #2e4474;
 }
-
+input[type='password']{
+  font-family: 'Manrope', sans-serif; 
+  font-weight: 500;
+}
+.btn-login{
+  background: #000;
+  color:rgba(255,255,255,1);
+  font-size: 19px;
+  font-weight:600;
+  font-family: 'Manrope', sans-serif; 
+  width: 60%;
+  padding:13px;
+}
+.btn-login:hover{
+  color:rgba(200,200,200,0.9);
+}
 .extra-login{
   margin-top:35px;
   padding:0px 25px;
@@ -497,12 +495,14 @@ color:#fffa;
 .extra-login p{
   color: #768aa5;
   margin:5px 0;
+  font-size:16px;
+  font-weight: 500;
 }
 .extra-login a{
   color:#479ae5;
 }
 .extra-login a:hover{
-  color:#29333d;
+  color:#e6e6e6;
 }
 .hero{
   background-image: url(img/hero-bg.svg);
@@ -524,7 +524,7 @@ color:#fffa;
 #promotion{
   padding:100px 0;
   background-color:#1c3e88;
-  background-image: url(img/about-bg.svg); 
+  background-image: url(img/promotion-bg.svg); 
   background-repeat: no-repeat; 
   background-position: left bottom;
   background-size: cover; 
@@ -541,7 +541,6 @@ color:#fffa;
 }
 .promotion-content p{
   color:#8e9fc4;
-  font-weight:400;
   font-size: 20px;
   margin:30px 0;
   margin-bottom:170px;
@@ -571,9 +570,14 @@ color:#fffa;
   text-align: center;
   color: #1c3e88;
 }
+#promotion-item .card-body{padding:20px 5px}
 #promotion-item .card p{
   text-align: center;
-  color: #7d7a76;
+  color: #444444b3;
+  font-size: 16px;
+  padding: 0;
+  line-height: 24px;
+  margin-top: 20px;
 }
 
 /*********************about****************/
@@ -587,11 +591,13 @@ color:#fffa;
 }
 #about h1{
   font-size: 33px;
+  font-weight: 700;
 }
 #about p{
   color:#aaa;
-  font-size: 26px;
+  font-size:20px;
   line-height: 36px;
+  font-weight:400;
 }
 /**************************feature***************************/
 #feature{
@@ -605,29 +611,28 @@ color:#fffa;
 }
 #feature h1{
   color:#406ed0;
-  font-size:38px;
 }
 #feature hr{
   border: 0;
   background:#6d6d6d;
   padding:2px;
   border-radius:0 0 5px 0;
-  width:15%;
+  width:170px;
   margin:0 auto;
   margin-bottom:30px;
   margin-left:520px;
 }
 
 .feature-item p{
-  color:#888;
+  color:#282828c7;
   padding:0px;
-  padding-left:38px;
-  font-size: 24px;
-  font-weight: 500;
+  padding-left:36px;
+  font-size:18px;
+  font-weight: 600;
   margin-bottom:10px;
   background: url(img/tick.svg);
-  background-position:0 9px;
-  background-size: 25px;
+  background-position:0 4px;
+  background-size:22px;
   background-repeat: no-repeat;
 }
 #heighlight{
@@ -642,9 +647,11 @@ color:#fffa;
 }
 
 #heighlight p{
-  color:#8e9fc4;
-  font-size: 20px;
-  font-weight: 500;
+    color: #8e9fc4;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 24px 0;
+    line-height: 28px;
 }
 .call-now{
   right: 30px;
@@ -652,7 +659,7 @@ color:#fffa;
   z-index: 1;
 }
 #heighlight a{
-  margin-top:60px;
+  margin-top:80px;
   font-weight: 600;
   padding:8px 0;
   font-size: 26px;
@@ -666,9 +673,10 @@ color:#fffa;
   margin-bottom: 20px;
 }
 #about-us p{
-  color: #3f3f3f;
-  font-size: 20px;
-  line-height: 36px;
+  color: #3f3f3fd4;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 500;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -678,15 +686,17 @@ footer {
   color: #fff;
   padding:5px 0;
   background:#111111;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 footer .copyright {
-  margin-bottom: .3rem;
-  color: #fff;
-  font-size: 15px;
+  margin-bottom:0.3rem;
+  
 }
 footer .copyright .nav a{
-  padding: 0 5px;
+  padding: 0 10px;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
 }
