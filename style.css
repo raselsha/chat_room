@@ -704,6 +704,13 @@ footer .copyright .nav a{
 
 /***********responsive design*************/
 @media (max-width:575px){
+  .navbar-nav{
+    padding-bottom:20px;
+  }
+  .navbar-brand img{
+    width: 120px;
+  }
+  /************intro************/
   #intro{
     background-size: cover;
     padding-top: 160px;
@@ -720,7 +727,8 @@ footer .copyright .nav a{
   }
 
   .login hr{
-    margin-right: 65px;
+    margin:2px auto;
+    margin-bottom:30px;
   }
   .hero{
     background-position: 43px 161px;
@@ -751,6 +759,12 @@ footer .copyright .nav a{
   #promotion-item .card{
     margin:20px 0;
   }
+  /***********feature************/
+  
+  #feature hr{
+    margin:0px auto;
+  }
+
   /**********heighlight***********/
   #heighlight h1 {
       font-size: 30px;
