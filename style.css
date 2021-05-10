@@ -778,6 +778,9 @@ footer .copyright .nav a{
   .feature-title {
     width: 100%;
   }
+  .feature-title h1{
+    font-size: 30px;
+  }
   #feature hr{
     margin:0px auto;
   }
