@@ -431,9 +431,9 @@ color: #4fccfc !important;;
   background:#316cab;
   padding: 2px;
   border-radius: 5px;
-  width:164px;
+  width:165px;
   margin:0 auto;
-  margin-right: 107px;
+  margin-right: 115px;
   margin-bottom:30px;
 }
 .login h1{
@@ -531,7 +531,7 @@ input[type='password']{
   background-size: cover; 
 }
 .promotion-content{
-  margin:20px 0;
+  margin:0 0 150px 0;
 }
 .promotion-title{
   background-color:#fec760;
@@ -554,7 +554,8 @@ input[type='password']{
 #promotion-item .card{
   border: 0px;
   border-radius: 15px;
-  margin-top:-170px;
+  margin-top:-140px;
+  height:370px;
 }
 
 #promotion-item .icon-image{
@@ -613,16 +614,21 @@ input[type='password']{
 }
 #feature h1{
   color:#406ed0;
+  margin-bottom: 5px;
+}
+.feature-title{
+  width: 800px;
+  margin: auto;
 }
 #feature hr{
   border: 0;
   background:#6d6d6d;
   padding:2px;
   border-radius:0 0 5px 0;
-  width:170px;
+  width:158px;
   margin:0 auto;
   margin-bottom:30px;
-  margin-left:520px;
+  margin-left:385px;
 }
 
 .feature-item p{
@@ -724,7 +730,7 @@ footer .copyright .nav a{
   }
 
   .login h1{
-    font-size: 30px;
+    font-size:28px;
   }
 
   .login hr{
@@ -741,12 +747,12 @@ footer .copyright .nav a{
   }
   /*promotion**********************/
   #promotion {
-      padding: 25px 0;
+    padding:60px 0; 
   }
   .promotion-title {
     border-radius: 10px;
-    padding: 18px 0;
-    font-size: 22px;
+    padding: 13px 3px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 33px;
   }
@@ -760,13 +766,18 @@ footer .copyright .nav a{
   #promotion-item .card{
     margin:20px 0;
   }
+  /*#promotion-item > .card :first-child{
+    margin-top:-140px;
+  }*/
   /***********about************/
   #about p{
     padding:0;
   }
 
   /***********feature************/
-  
+  .feature-title {
+    width: 100%;
+  }
   #feature hr{
     margin:0px auto;
   }
@@ -792,8 +803,5 @@ footer .copyright .nav a{
 }
 /**************@media (min-width:576px)***********/
 @media (max-width:768px){
-  #feature hr{
-    margin-left:0px;
-    margin: 0 auto;
-  }
+
 }

@@ -75,7 +75,7 @@
                             </button>
                         </div>
                         <div class="form-group mt-2 text-center">
-                            <button onclick="sendLogin();" type="button" class="btn btn-login">
+                            <button onclick="getGuestLogin();" type="button" class="btn btn-login">
                                 Guest Login
                             </button>
                         </div>
@@ -107,7 +107,6 @@
             <div class="col-sm-12">
                 <div class="promotion-content text-center">
                     <h2 class="promotion-title">A friendly laid-back community connecting creative minds from around the world.</h2>
-                    <p class="">The cmx vision is to achieve an effective communication tool for diverse, attractive and talented minds from all over the globe to share laughs, collaborate, or simply lounge and engage with others. Endeavor in the advantages of anonymity, enabling the freedom of being one’s true self in an inclusive and new approach to human engagements. </p>
                 </div>
             </div>
         </div>
@@ -122,7 +121,7 @@
                 <div class="card-body">
                     <div class="icon-image" style=" background-image:url(img/lounge.png);"></div>
                     <h3>Lounge</h3>
-                    <p>Share good times by having mature conversations with like-minded adults to build long-lasting relationships.</p>
+                    <p>Share good times by having mature conversations with like-minded individuals.</p>
                 </div>
             </div>
           </div>
@@ -140,7 +139,8 @@
                 <div class="card-body">
                     <div class="icon-image" style=" background-image:url(img/single.png);"></div>
                     <h3>Singles/Dating</h3>
-                    <p>Love is in the air. Chat, flirt, date, make friends, and share loving experiences with that special person.</p>
+                    <p>Chat, flirt, date, make friends, and share loving experiences with that special person.
+                    </p>
                 </div>
             </div>
           </div>
@@ -149,7 +149,7 @@
                 <div class="card-body">
                     <div class="icon-image" style=" background-image:url(img/it.png);"></div>
                     <h3>IT/Development</h3>
-                    <p>Connect with fellow tech enthusiasts to broaden your knowledge. Exchange codes, discuss graphics, gaming, and tech.</p>
+                    <p>Connect with fellow tech enthusiasts. Exchange codes, discuss graphics, gaming, and tech.</p>
                 </div>
             </div>
           </div>
@@ -184,8 +184,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1 data-aos="fade-down">What Does The CMX Platform Provide?</h1>
-                <hr>
+                <div class="feature-title">
+                      <h1 data-aos="fade-down">What Does The CMX Platform Provide?</h1>
+                      <hr class="d-none d-sm-block">  
+                </div>
             </div>
         </div>
         <div class="row no-gutters mt-5">
@@ -254,6 +256,7 @@
     </div>
 </section>
   <!-- ======= Footer ======= -->
+
   <footer>
     <div class="container">
       <div class="row">
@@ -261,9 +264,7 @@
           <div class="copyright text-left">
             <ul class="nav">
               <li class="nav-item">  2021 &copy; <a href="#">CMX Chat</a></li>
-              <li class="nav-item"><a href="#">Terms of use</a></li>
-              <li class="nav-item"><a href="#">Privacy policy</a></li>
-              <li class="nav-item"><a href="#"><i class="fas fa-language"></i> Language</a></li>
+              <?php boomFooterMenu(); ?>
             </ul>
           </div>
         </div>
@@ -283,7 +284,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
- 
+  <script data-cfasync="false" src="js/function_login.js<?php echo $bbfv; ?>"></script>
+  <script data-cfasync="false" src="js/function_active.js<?php echo $bbfv; ?>"></script> 
   <!-- Template Main JS File -->
   <script src="main.js"></script>
 
